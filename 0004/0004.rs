@@ -1,7 +1,7 @@
 fn main() {
     let mut product_vec: Vec<u32> = Vec::new();
-    for i in 0..1000 {
-        'outer: for j in 0..1000 {
+    for i in 100..1000 {
+        'outer: for j in 100..1000 {
             let product: u32 = i * j;
             let s: String = product.to_string();
             for s_index in 0..(s.len() / 2) {
