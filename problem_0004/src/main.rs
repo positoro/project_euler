@@ -14,5 +14,5 @@ fn main() {
         }
     }
     product_vec.sort();
-    println!("{:?}", product_vec);
+    println!("{:?}", product_vec.last().unwrap());
 }
